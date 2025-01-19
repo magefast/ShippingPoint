@@ -1,7 +1,7 @@
 {
   "name": "magefast-dragonfly/module-shipping-point",
   "minimum-stability": "dev",
-  "description": "Magento shipping method ShippingPoint.",
+  "description": "Magento module for delivery service.",
   "type": "magento2-module",
   "require": {
     "magento/framework": "*"

@@ -1,2 +1,2 @@
 # ShippingPoint
-Magento shipping method ShippingPoint.
+Magento module for delivery service.
