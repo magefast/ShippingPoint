@@ -1,0 +1,18 @@
+{
+  "shipping_point": {
+    "column": {
+      "shipping_point_id": true,
+      "id": true,
+      "order_id": true,
+      "shipping_point_code": true,
+      "shipping_service": true,
+      "shipping_point_title": true
+    },
+    "index": {
+      "SHIPPING_POINT_SHIPPING_POINT_ID": true
+    },
+    "constraint": {
+      "PRIMARY": true
+    }
+  }
+}

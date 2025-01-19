@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="shipping_point" resource="default" engine="innodb" comment="ShippingPoint">
+        <column xsi:type="bigint" name="shipping_point_id" padding="10" unsigned="true" nullable="false" identity="true"
+                comment="Shipping Point Id Column"/>
+        <column xsi:type="bigint" name="order_id" padding="10" unsigned="true" nullable="false" identity="false"
+                comment="Order Id Column"/>
+        <column xsi:type="varchar" name="shipping_point_code" nullable="false" length="255"
+                comment="Shipping Point Code Column"/>
+        <column xsi:type="varchar" name="shipping_service" nullable="false" length="255"
+                comment="Shipping Service Column"/>
+        <column xsi:type="varchar" name="shipping_point_title" nullable="false" length="255"
+                comment="Shipping Point Title Column"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="shipping_point_id"/>
+        </constraint>
+        <index referenceId="SHIPPING_POINT_SHIPPING_POINT_ID" indexType="btree">
+            <column name="shipping_point_id"/>
+        </index>
+    </table>
+</schema>
