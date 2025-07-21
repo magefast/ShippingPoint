@@ -1,5 +1,6 @@
 {
   "name": "magefast-dragonfly/module-shipping-point",
+  "version": "1.0.2",
   "minimum-stability": "dev",
   "description": "Magento module for delivery service.",
   "type": "magento2-module",
@@ -14,7 +15,9 @@
     }
   ],
   "autoload": {
-    "files": ["registration.php"],
+    "files": [
+      "registration.php"
+    ],
     "psr-4": {
       "Dragonfly\\ShippingPoint\\": ""
     }
