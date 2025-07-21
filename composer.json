@@ -1,6 +1,6 @@
 {
   "name": "magefast-dragonfly/module-shipping-point",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "minimum-stability": "dev",
   "description": "Magento module for delivery service.",
   "type": "magento2-module",
